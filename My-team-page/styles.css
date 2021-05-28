@@ -1,0 +1,128 @@
+* {
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: .5em;
+}
+
+h4 {
+    color: #888888;
+    font-weight: normal;
+    font-style: normal;
+    font-size: .8em;
+}
+
+h6 {
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    /*margin-bottom: 65%;*/
+}
+
+p {
+    font-size: 16px;
+}
+
+img {
+    width: 58%;
+    height: max-content;
+    /*z-index: 1;*/
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+#rotate {
+    margin-left: 1.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.space {
+    width: .9rem;
+}
+
+.container {
+    margin: 5% 10%;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 7%;
+}
+
+.left {
+    flex: auto;
+    flex-basis: 46%;
+}
+
+.right {
+    flex: auto;
+    flex-basis: 54%;
+}
+
+.content {
+    display: flex;
+    margin-left: 7%;
+    flex-wrap: wrap;
+}
+
+[class^="team-"] {
+    width: 32%;
+}
+
+.up {
+    display: flex;
+    height: min-content;
+}
+
+[id^="mid-"] {
+    padding-top: 8%;
+}
+
+@media (max-width: 976px) {
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 15px;
+        margin-bottom: .5em;
+    }
+    p {
+        font-size: 14px;
+    }
+    [class^="team-"] {
+        width: 50%;
+    }
+    [id^="mid-"] {
+        padding-top: 0%;
+    }
+    .team-2 {
+        padding-top: 15%;
+    }
+    .team-4 {
+        padding-top: 15%;
+    }
+    .team-6 {
+        padding-top: 15%;
+    }
+    .container {
+        margin: 2% 4%;
+    }
+    .content {
+        margin-left: 1%;
+    }
+}
