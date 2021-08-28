@@ -176,7 +176,7 @@ svg {
 .right-item {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 
 footer {
