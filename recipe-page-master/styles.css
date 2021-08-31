@@ -173,13 +173,84 @@ svg {
     color: #F2994A;
 }
 
-.right-item {
+[class^="right-item"] {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10%;
 }
 
+.ol-ingredients-list {
+    padding: 0%;
+}
+
 footer {
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 976px) {
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0%;
+    }
+    h4 {
+        font-size: 1rem;
+        width: 100%;
+        margin: 1% 0 3% 1%;
+        font-style: normal;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .container {
+        margin: 1% 1%;
+    }
+    svg {
+        padding: 0.5% 0.2% 0 0;
+    }
+    #photo {
+        width: 100%;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+    .header-down {
+        width: 100%;
+    }
+    .left {
+        width: 100%
+    }
+    .right {
+        width: 100%;
+        margin-right: 0;
+    }
+    .content {
+        flex-direction: column-reverse;
+    }
+    .card {
+        padding: 0;
+        box-shadow: none;
+    }
+    [class^="right-item"] {
+        justify-content: stretch;
+        margin-bottom: 6%;
+        width: 45%;
+    }
+    h5 {
+        margin: 0 0 0 9%;
+    }
+    h6 {
+        margin: 2% 0 0 9%;
+        font-size: 0.8rem;
+    }
+    .info {
+        width: 100%;
+    }
+    .right-item-2 {
+        width: 31%;
+        float: left;
+        margin: 0 2% 3% 0%;
+    }
+    .check {
+        width: 23px;
+        height: 23px;
+    }
 }
