@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://raw.githubusercontent.com/paulinoacuna/FrontentChallenges/main/Scarecrow.png)
+![screenshot](404-not-found/404_ss.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
