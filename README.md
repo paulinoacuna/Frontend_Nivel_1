@@ -10,10 +10,14 @@
    <br>
    Aquí se encuentran proyectos de primer nivel (básico) en donde principalmente se usan tecnologías orientadas a maquetación de sitios Web Responsive comenzando desde lo mas básico.
  <br><br>
- En el apartado <a href="#" target="_blank">FRONTEND NIVEL 2</a> podras encontrar proyectos y ejercicios de nivel intermedio utilizando frameworks para el Frontend o librerías. <i>en desarrollo</i>
+ En el apartado <a href="#" target="_blank">FRONTEND NIVEL 2</a> podras encontrar proyectos y ejercicios de nivel intermedio utilizando frameworks o librerías para el Frontend. 
  <br>
- En el apartado <a href="#" target="_blank">FRONTEND NIVEL 3</a> encontrarás mis proyectos mas avanzados integrando tecnologías Backend, API´s-Rest y manejo de datos <i>en desarrollo</i>
-  
+   <i>Proyectos aún en desarrollo..</i>
+ <br>
+ En el apartado <a href="#" target="_blank">FRONTEND NIVEL 3</a> encontrarás mis proyectos mas avanzados integrando tecnologías Backend, API´s-Rest y manejo de datos. 
+   <br>
+   <i>Proyectos aún en desarrollo..</i>
+  <br><br>
  Algunos de estos proyectos han sido inspirados de: <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
 
