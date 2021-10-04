@@ -52,3 +52,4 @@ Los ejercicios fueron desarrollados aplicando tecnologías HTML, CSS y Javascrip
 ## Contacto
 
 - GitHub [@paulinoacuna](https://github.com/paulinoacuna)
+- Linkedin [@paulinoacuna](https://co.linkedin.com/in/paulino-acu%C3%B1a-7b071714b)
