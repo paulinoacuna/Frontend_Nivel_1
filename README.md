@@ -23,7 +23,7 @@
 ## Desarrollo y tecnologías usadas
 
 -HTML <br>
--CSS (flexbox, media queries) <br>
+-CSS (flexbox, media queries y control de vistas moviles) <br>
 -JS
 <br><br>
 Los ejercicios fueron desarrollados aplicando tecnologías HTML, CSS y Javascript, este ultimo para algunas funcionalidades básicas.
