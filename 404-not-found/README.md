@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](404-not-found/404_ss.png)
+![screenshot](https://github.com/paulinoacuna/ResponsiveWebChallenges/blob/903b398c840ea73d1a6ba04d8c127f3b245329d5/404-not-found/404_ss.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
