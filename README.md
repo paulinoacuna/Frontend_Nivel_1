@@ -3,8 +3,13 @@
 <h1 align="center">FRONTEND NIVEL 1: Web Responsive</h1>
 
 <div>
-   ¡Hola. Bienvenido a mi repositorio de proyectos personales! En este apartado podras encontrar varios proyectos y ejercicios sobre Web Responsive que he desarrollado. Aquí se encuentran proyectos de primer nivel (básico) en donde principalmente se usan tecnologías orientadas a maquetación de sitios Web Responsive comenzando desde lo mas básico.
- <br> 
+   ¡Hola. Bienvenido a mi repositorio de proyectos personales!
+  <br>
+  <br>
+   En este apartado podras encontrar varios proyectos y ejercicios sobre Web Responsive que he desarrollado.
+   <br>
+   Aquí se encuentran proyectos de primer nivel (básico) en donde principalmente se usan tecnologías orientadas a maquetación de sitios Web Responsive comenzando desde lo mas básico.
+ <br><br>
  En el apartado <a href="#" target="_blank">FRONTEND NIVEL 2</a> podras encontrar proyectos y ejercicios de nivel intermedio.
  <br>
  En el apartado <a href="#" target="_blank">FRONTEND NIVEL 3</a> estan mis proyectos mas avanzados.
