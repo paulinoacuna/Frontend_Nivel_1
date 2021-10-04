@@ -26,22 +26,17 @@
 ## ¡Un vistazo rapido a los proyectos!
 
 <h2>Página 404</h2>
+
 ![screenshot](https://github.com/paulinoacuna/ResponsiveWebChallenges/blob/903b398c840ea73d1a6ba04d8c127f3b245329d5/404-not-found/404_ss.png)
-<h2>Página equipo de trabajo</h2>
-![screenshot](https://github.com/paulinoacuna/ResponsiveWebChallenges/blob/e0b20e8cb18956cb2434b9393d0c750ddecb7365/My-team-page/team_ss.png)
-<h2>Página galería de fotos</h2>
-![screenshot](https://github.com/paulinoacuna/ResponsiveWebChallenges/blob/e0b20e8cb18956cb2434b9393d0c750ddecb7365/my-gallery-master/gallery_ss.png)
-<h2>Home page diseño de interiores</h2>
-![screenshot](https://github.com/paulinoacuna/ResponsiveWebChallenges/blob/e0b20e8cb18956cb2434b9393d0c750ddecb7365/interior-consultant-master/interior_ss.png)
 
 
 ## Desarrollo y tecnologías usadas
 
--HTML
--CSS (flexbox, media queries)
+-HTML <br>
+-CSS (flexbox, media queries) <br>
 -JS
-
-En este apartado los ejercicios fueron desarrollados aplicando tecnologías HTML, CSS y Javascript, este ultimo para algunas funcionalidades básicas.
+<br><br>
+Los ejercicios fueron desarrollados aplicando tecnologías HTML, CSS y Javascript, este ultimo para algunas funcionalidades básicas.
 
 
 ## Contacto
