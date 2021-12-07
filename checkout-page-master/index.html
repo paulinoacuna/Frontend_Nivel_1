@@ -26,7 +26,7 @@
         <div class="content">
             <div class="col-1">
 
-                <form action="" method="post">
+                <form action="" method="post" autocomplete="off">
                     <h2>Contact information</h2>
 
                     <label for="email">E-mail</label>
@@ -84,18 +84,14 @@
                     </div>
 
                     <div class="saveinfo-box">
-                        <input type="checkbox" name="check" id="check">
+                        <input type="checkbox" name="check" class="checkbox" id="check">
                         <p>Save this information for next time</p>
                     </div>
+                    <input id="submit" type="submit" value="Continuar">
 
-                    <input type="submit" value="Continuar">
 
                 </form>
             </div>
-
-
-
-
 
             <div class="col-2">
                 <br>
@@ -105,9 +101,14 @@
 
                         <div class="img"><img src="photo1.png" alt="maleta"></div>
                         <div class="col-info">
-                            <h5>Vintage Backbag</h5>
-                            <h4>$54.99</h4>
-                            <del class="del">$94.99</del>
+                            <div class="item-info">
+                                <h5>Vintage Backbag</h5>
+                                <div class="row-item-price">
+                                    <h4 class="item-price">$54.99</h4>
+                                    <del class="del">$94.99</del>
+                                </div>
+
+                            </div>
 
                             <div class="row-quantity">
                                 <button>-</button>
@@ -121,9 +122,13 @@
                     <div class="col-2-row-1">
                         <div class="img"><img src="photo2.png" alt="tenis"></div>
                         <div class="col-info">
-                            <h5>Levi Shoes</h5>
-                            <h4>$74.99</h4>
-                            <del class="del">$124.99</del>
+                            <div class="item-info">
+                                <h5>Levi Shoes</h5>
+                                <div class="row-item-price">
+                                    <h4 class="item-price">$74.99</h4>
+                                    <del class="del">$124.99</del>
+                                </div>
+                            </div>
 
                             <div class="row-quantity">
                                 <button>-</button>
@@ -134,13 +139,13 @@
                     </div>
 
                     <div class="col-2-row-2">
-                        <!-- draw line -->
+                        <div class="line"></div>
                         <div class="col-price">
                             <h5>Shipping</h5>
                             <span class="price">$19</span>
                         </div>
 
-                        <!-- draw line -->
+                        <div class="line"></div>
                         <div class="col-price">
                             <h5>Total</h5>
                             <span class="price">$148.98</span>
