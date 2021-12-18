@@ -41,13 +41,21 @@ button:active {
     background-color: #e7c6a9;
 }
 
+button:hover {
+    background-color: #e0934f;
+}
+
 #submit {
     padding: 10px 10px;
     color: white;
     border: none;
-    background-color: #F2994A;
+    background-color: #ec9141;
     margin-left: 65%;
     border-radius: 10px;
+}
+
+#submit:hover {
+    background-color: #dd7c27;
 }
 
 footer {
