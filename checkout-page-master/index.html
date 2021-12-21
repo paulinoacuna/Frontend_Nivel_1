@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=5" />
+    <link rel="icon" href="devchallenges.png" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+    <link href="https://allfont.es/allfont.css?fonts=lora" rel="stylesheet" type="text/css" />
+    <link href="https://allfont.es/allfont.css?fonts=montserrat" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/28d8a4fe8b.js" crossorigin="anonymous"></script>
+
+    <title>Devchallenges</title>
+</head>
+
+<body onload="loadCheckout()">
+
+    <div class="container">
+        <h1>Checkout</h1>
+        <br>
+
+        <div class="content">
+            <div class="col-1">
+
+                <form action="#" name="formulario" method="post" autocomplete="off">
+                    <h2>Contact information</h2>
+
+                    <label for="email">E-mail</label>
+                    <div class="fieldbox">
+                        <span class="material-icons">mail</span>
+                        <input type="email" name="email" id="email" size="48" maxlength="25" placeholder="Enter your email...">
+                    </div>
+
+                    <label for="number">Phone</label>
+                    <div class="fieldbox">
+                        <span class="material-icons">phone</span>
+                        <input type="text" name="phone" id="number" size="48" maxlength="25" placeholder="Enter your phone...">
+                    </div>
+
+                    <br>
+                    <h2>Shipping address</h2>
+
+                    <label for="name">Full name</label>
+                    <div class="fieldbox">
+                        <span class="material-icons">account_circle</span>
+                        <input type="text" id="name" name="nombre" size="48" maxlength="25" placeholder="Enter your name...">
+                    </div>
+
+                    <label for="address">Address</label>
+                    <div class="fieldbox">
+                        <span class="material-icons">home</span>
+                        <input type="text" id="address" size="48" maxlength="25" placeholder="Your address..">
+                    </div>
+
+                    <label for="city">City</label>
+                    <div class="fieldbox">
+                        <span class="material-icons">location_city</span>
+                        <input type="text" size="48" maxlength="25" placeholder="Your city..">
+                    </div>
+
+                    <div class="col-1-row-1">
+
+                        <div class="col-1-row-1-col-1">
+                            <label for="contry">Contry</label>
+                            <div class="fieldbox" id="box-contry">
+                                <span class="material-icons">public</span>
+                                <input type="text" maxlength="14" placeholder="Your country..">
+                            </div>
+                        </div>
+
+
+                        <div class="col-1-row-1-col-1">
+                            <label for="postal">Postal code</label>
+                            <div class="fieldbox">
+                                <span class="material-icons">markunread_mailbox</span>
+                                <input type="text" maxlength="14" placeholder="Your postal code..">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="saveinfo-box">
+                        <input type="checkbox" name="check" class="checkbox" id="check">
+                        <p>Save this information for next time</p>
+                    </div>
+                    <input id="submit" onclick="return validarForm()" type="submit" value="Continuar">
+
+
+                </form>
+            </div>
+
+            <div class="col-2">
+                <br>
+                <div class="card">
+
+                    <div class="col-2-row-1 item">
+
+                        <div class="img"><img src="photo1.png" alt="maleta"></div>
+                        <div class="col-info">
+                            <div class="item-info">
+                                <h5>Vintage Backbag</h5>
+                                <div class="row-item-price">
+                                    <h4 class="item-price">$54.99</h4>
+                                    <del class="del">$94.99</del>
+                                </div>
+
+                            </div>
+
+                            <div class="row-quantity">
+                                <button onclick="cantidad('0-')">-</button>
+                                <span class="item-quantity">1</span>
+                                <button onclick="cantidad('0+')">+</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-2-row-1 item">
+                        <div class="img"><img src="photo2.png" alt="tenis"></div>
+                        <div class="col-info">
+                            <div class="item-info">
+                                <h5>Levi Shoes</h5>
+                                <div class="row-item-price">
+                                    <h4 class="item-price">$74.99</h4>
+                                    <del class="del">$124.99</del>
+                                </div>
+                            </div>
+
+                            <div class="row-quantity">
+                                <button onclick="cantidad('1-')">-</button>
+                                <span class="item-quantity">1</span>
+                                <button onclick="cantidad('1+')">+</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-2-row-2">
+                        <div class="line"></div>
+                        <div class="col-price">
+                            <h5>Unitary total without discount</h5>
+                            <del class="price" id="subtotal">$0</del>
+                        </div>
+
+                        <div class="line"></div>
+                        <div class="col-price">
+                            <h5 id="total-label">Total</h5>
+                            <span class="price" id="total">$0</span>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        created by Paulino Acuña
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

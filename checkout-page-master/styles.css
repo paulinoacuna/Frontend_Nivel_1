@@ -1,0 +1,289 @@
+* {
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+label {
+    font-size: 0.7em;
+}
+
+img {
+    width: 100%;
+}
+
+.img {
+    width: 20%;
+}
+
+del {
+    background-color: transparent;
+}
+
+.checkbox {
+    width: 18px;
+    height: 18px;
+}
+
+button {
+    padding: 0px 6px;
+    margin: 3px 0;
+    border: none;
+    font-size: 1.8;
+    background-color: rgb(197, 197, 197);
+}
+
+button:active {
+    background-color: #e7c6a9;
+}
+
+button:hover {
+    background-color: #e0934f;
+}
+
+#submit {
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    background-color: #ec9141;
+    margin-left: 65%;
+    border-radius: 10px;
+}
+
+#submit:hover {
+    background-color: #dd7c27;
+}
+
+#total-label {
+    font-size: 1.2em;
+}
+
+footer {
+    display: flex;
+    color: #888888;
+    font-weight: normal;
+    font-style: normal;
+    font-size: .7em;
+    justify-content: center;
+}
+
+.container {
+    margin: 2% 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1 {
+    width: 50%;
+}
+
+.col-1 form {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-1-row-1 {
+    /* margin-right: 15%; */
+    margin-bottom: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-1-row-1-col-1 {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.col-1-row-1-col-1 .fieldbox {
+    margin-right: 0;
+}
+
+.col-2 {
+    /* margin-left: 15%; */
+    background-color: #F2F2F2;
+    padding: 0 20px;
+    width: 34%;
+    border-radius: 20px;
+}
+
+.col-2 .card {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+}
+
+.col-2-row-1 {
+    display: flex;
+    background-color: #F2F2F2;
+    margin-bottom: 20px;
+}
+
+
+/* col 1 details */
+
+.fieldbox {
+    /* margin-right: 15%; */
+    margin-bottom: 4%;
+    padding: 2% 1.5%;
+    border: #828282 2px solid;
+    border-radius: 8px;
+    display: flex;
+    justify-content: start;
+}
+
+.fieldbox input {
+    margin-left: 13px;
+    border: none;
+    background-color: transparent;
+}
+
+.fieldbox input:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+.fieldbox input:active {
+    border: none;
+    background-color: transparent;
+}
+
+input::placeholder {
+    color: rgb(49, 49, 49);
+}
+
+.saveinfo-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.saveinfo-box p {
+    margin-left: 5px;
+    font-size: 0.8em;
+}
+
+
+/* col-2 details */
+
+.col-2-row-2 {
+    margin-top: 70px;
+}
+
+.line {
+    border-bottom: 1px solid black;
+}
+
+.col-price {
+    padding: 8px 0px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.col-2-row-1 .img img {
+    border-radius: 10px;
+}
+
+.col-2-row-1 .img {
+    width: 45%;
+}
+
+.col-2-row-1 .col-info {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 6%;
+}
+
+.item-price {
+    color: #F2994A;
+}
+
+.row-item-price {
+    display: flex;
+    align-items: baseline;
+    background-color: #F2F2F2;
+    flex-wrap: wrap;
+}
+
+
+/* colors */
+
+.col-2-row-1 .img {
+    background-color: #F2F2F2;
+}
+
+.col-2-row-1 .col-info {
+    background-color: #F2F2F2;
+}
+
+.col-2-row-1 .col-info h5 {
+    background-color: #F2F2F2;
+}
+
+.col-2-row-1 .col-info h4 {
+    background-color: #F2F2F2;
+}
+
+.col-2-row-1 .col-info .del {
+    font-size: 0.7em;
+    margin-left: 12px;
+}
+
+.col-2-row-1 .col-info .row-quantity {
+    background-color: #F2F2F2;
+    padding: 10px;
+    border: #828282 1.5px solid;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-bottom: 12px;
+}
+
+.col-2-row-1 .col-info .row-quantity span {
+    background-color: #F2F2F2;
+}
+
+.col-2-row-2 .col-price {
+    background-color: #F2F2F2;
+}
+
+.col-2-row-2 .col-price h5 {
+    background-color: #F2F2F2;
+}
+
+.col-2-row-2 .col-price span {
+    background-color: #F2F2F2;
+}
+
+@media (max-width: 810px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .col-1 {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .col-2 {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+}
